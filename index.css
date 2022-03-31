@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(220, 217, 217)
+}
+
+#wrapper{
+    width: 800px;
+    display: flex;
+    justify-content:space-between
+}
+
+
+#wrapper #left{
+    width: 50%;
+}
+
+#wrapper #right{
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid 
+}
+
+
+  

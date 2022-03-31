@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="range.css" media="screen" />
+
+    <title>Color Picker</title>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="left">
+            <h1>RGB Color Picker</h1>
+            <h2>Red:</h2>
+            <input onchange="changeRed(this.value)" type="range" id="red" min="0" max="255">
+            <h2>Green:</h2>
+            <input onchange="changeGreen(this.value)" type="range" id="green" min="0" max="255"> 
+            <h2>Blue:</h2>
+            <input onchange="changeBlue(this.value)" type="range" id="blue" min="0" max="255">
+        </div>
+        <div id="right">
+            <h3 id="rgbvalues">RGB(255, 255, 255)</h3>
+            <h4 id="hexavalues">#FFFFFF</h4>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
